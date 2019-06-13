@@ -1,0 +1,86 @@
+@charset "utf-8";
+/* CSS Document */
+* { margin:0px; padding:0px;}
+.tong {width: 1280px; height:2266px ; margin: auto;}
+
+.top {width: 1280px; height: 484px ;}
+
+#menu ul {
+  background: #fff;
+  list-style-type: none;
+  text-align: center;
+}
+#menu li {
+  color: #f1f1f1;
+  display: inline-block;
+  width: 150px;
+  height: 50px;
+  line-height: 50px;
+  margin-left: -5px;
+}
+#menu a {
+  text-decoration: none;
+  color: #000;
+  display: block;
+}
+#menu a:hover {
+  background: #F1F1F1;
+  color: #000;
+}
+#menu ul {
+  background: #fff;
+  list-style-type: none;
+  text-align: center;
+}
+#menu li {
+  color: #f1f1f1;
+  display: inline-block;
+  width: 120px;
+  height: 40px;
+  line-height: 40px;
+  margin-left: -5px;
+}
+#menu a {
+  text-decoration: none;
+  color: #000;
+  display: block;
+}
+#menu a:hover {
+  background: #fff;
+  color: #ff0000;
+}
+#menu li {
+ position: relative;
+}
+.sub-menu li {
+  display: none;
+}
+.sub-menu {
+ display: none;
+ position: absolute;
+}
+
+#menu li:hover .sub-menu {
+ display: block;
+}
+.sub-menu li {
+ margin-left: 0 !important;
+}
+
+.banner {width: 1280px; height:500px; }
+ 
+.left {width: 421px; height:1150px; float: left; background-color: #FFF; }
+.left table{border-collapse: collapse; width: 100%;}
+.left table td{border-top: 1px solid white; border-bottom: 1px solid gray; padding: 15px;}
+.left tr:nth-child(odd){background-color: #FFF}
+
+.right {width: 856px; height:1150px; float: right; background-color: #FFF;  }
+.right form table tr td {border:1px solid red;}
+
+.bot {width: 1280px; height:287xp; }
+
+.menubot {width: 1280; height: 200px; background: #FFF; margin: auto; align-content: center; margin-left: 70px}
+.menubot table td{border-top: 1px solid white; border-bottom: 1px solid white; padding: 3px; width: 320px;}
+.menubot tr:nth-child(odd){background-color: #FFF}
+
+.center-lienhe { margin-left: 50px  }
